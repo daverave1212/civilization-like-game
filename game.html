@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src = "Javascript/utils.js"></script>
+	<script src = "Javascript/Libs/jquery-3.3.1.min.js"></script>
+	<script src = "Javascript/Libs/Queue.src.js"></script>
+
+	<script src = "Javascript/scripts.js"></script>
+	<script src = "Javascript/Numbers.js"></script>
+	<script src = "Javascript/Databases/TerrainTypes.js"></script>
+	<script src = "Javascript/Hextile.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/hextile.css">
+	<meta charset="UTF-8">
+	<style>
+
+	</style>
+</head>
+<body>
+	<div id="Window">
+
+	</div>
+</body>
+<script>
+
+startGettingMouseCoordinates()
+
+h = new Hexmap({
+	nRows : 8,
+	nCols : 8,
+	xOffset : 100,
+	yOffset : 100
+})
+
+console.log(h.get(3,3).toString())
+
+console.log(h.get(3,3).getLeft().toString())
+console.log(h.get(3,3).getRight().toString())
+console.log(h.get(3,3).getTopLeft().toString())
+console.log(h.get(3,3).getBottomLeft().toString())
+console.log(h.get(3,3).getTopRight().toString())
+console.log(h.get(3,3).getBottomRight().toString())
+
+</script>
+
+</html>

@@ -1,0 +1,57 @@
+
+:root {
+    --hextile-width : 128px;
+    --hextile-height : 128px;
+}
+
+.hextile-wrapper {
+    position: absolute;
+    width: var(--hextile-width);
+    height: var(--hextile-height);
+}
+
+.hextile-img {
+    position: absolute;
+    width: var(--hextile-width);
+    height: var(--hextile-height);
+}
+
+.hextile-click-listener-div {
+    z-index: 99;
+    width: var(--hextile-width);
+    height: calc(var(--hextile-height)/2);
+    top: calc(var(--hextile-height)/4);
+    position: absolute;
+}
+
+.hextile-content {
+    z-index: 1;
+    width: var(--hextile-width);
+    height: var(--hextile-height);
+    position: absolute;
+}
+
+.hextile-resource-indicator-wrapper {
+    z-index: 2;
+    width: var(--hextile-width);
+    height: var(--hextile-height);
+    position: absolute;
+}
+
+.hextile-resource-indicator {
+    padding-top: calc(var(--hextile-height)/1.75);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.hextile-resource-indicator-box {
+    margin: auto;
+    height: 16px;
+    background-color: #222222;
+    border-radius: 5px;
+}
+.hextile-resource-icon {
+    width: 16px;
+    height: 16px;
+}

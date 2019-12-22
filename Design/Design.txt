@@ -1,0 +1,29 @@
+
+    Gameplay
+You start with a town and you generate resources every turn.
+If you have a tile, you have it and it contributes to resource gain.
+
+
+        Resources
+
+Each base terrain tile produces 3 resources
+
+    Primary
+- Food
+    - Buy tiles
+- Gold
+    - Everything also costs gold
+- Materials
+    - Construct improvement buildings on tiles you own
+- Might
+    - Clear neutral camps around
+
+    Secondary
+- Magic
+
+
+
+        Capturable Tiles
+Fish - Increases Food production by 10%
+Crystals - Increases Gold production by 10%
+Elemental Rift - Increases Magic production by 10%
